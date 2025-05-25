@@ -1,0 +1,12 @@
+[package]
+name = "hello-world"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.8.5"        
+ggez = "0.9.2"     
+rapier2d = "0.24.0"  
+serde = { version = "1.0", features = ["derive"] } 
+mint = "0.5.9" 
+bracket-lib = "~0.8.7"
